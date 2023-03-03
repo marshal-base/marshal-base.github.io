@@ -1,6 +1,6 @@
-# 生产工具
+# 生产工具 「简介 + npm 地址」
 
-## cookie [@marshal93/cookie](https://www.npmjs.com/package/@marshal93/cookie)
+## 操作 cookie [@marshal93/cookie](https://www.npmjs.com/package/@marshal93/cookie)
 
 ### Usage
 
@@ -22,7 +22,7 @@ function deleteCookie(name: string, extra: {
 } = {}): void;
 ```
 
-## storage [@marshal93/storage](https://www.npmjs.com/package/@marshal93/storage)
+## 操作 storage [@marshal93/storage](https://www.npmjs.com/package/@marshal93/storage)
 
 ### Usage
 ```js
@@ -37,7 +37,7 @@ storage(key, val); // 设置某值
 storage(key, null); // 清除某值
 ```
 
-## copy-text [@marshal93/copy-text](https://www.npmjs.com/package/@marshal93/copy-text)
+## 复制文本 [@marshal93/copy-text](https://www.npmjs.com/package/@marshal93/copy-text)
 
 ### Usage
 ```typescript
@@ -48,9 +48,9 @@ copyText(...some...text...);
 
 ----
 
-# 开发环境工具
+# 开发环境工具「简介 + npm 地址」
 
-## eslint-config [@marshal93/eslint-config](https://www.npmjs.com/package/@marshal93/eslint-config)
+## 自定义 eslint [@marshal93/eslint-config](https://www.npmjs.com/package/@marshal93/eslint-config)
 
 ### es5
 ```json
@@ -96,7 +96,7 @@ copyText(...some...text...);
 }
 ```
 
-## stylelint-config [@marshal93/stylelint-config](https://www.npmjs.com/package/@marshal93/stylelint-config)
+## 自定义 stylelint [@marshal93/stylelint-config](https://www.npmjs.com/package/@marshal93/stylelint-config)
 
 ### Usage
 
