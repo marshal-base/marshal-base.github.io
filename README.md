@@ -107,3 +107,18 @@ copyText(...some...text...);
   ]
 }
 ```
+
+## 获取一个随机字符串 [@marshal93/random-string](https://www.npmjs.com/package/@marshal93/random-string)
+
+## Usage
+
+```typescript
+import randomString from '@marshal93/random-string';
+
+// 默认长度 6 位字符，默认随机字符集和为 `ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz012345678`
+randomString();
+// 更改长度
+randomString(2);
+// 更改长度和随机集合
+randomString(3, '1234567890');
+```
